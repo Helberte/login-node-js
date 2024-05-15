@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" type="text/css" href="./style/style.css">
+    <link rel="stylesheet" type="text/css" href="./style/normalize.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <p class="paragrafos nome-empresa">Minha Empresa</p>
+        <p class="paragrafos entrar">Entrar</p>
+        <form id="formLoginDados" class="form-login">
+            <input class="input-dados-login" name="username" value="rosabarnett" type="text" class="email" placeholder="Email" autofocus maxlength="100" required>
+            <input class="input-dados-login login-senha" name="password" value="123456" type="password" minlength="8" class="senha" placeholder="Senha" required maxlength="8">
+            <p class="login-result">Não foi possível se conectar</p>
+            <div class="div-criar-conta">
+                <p class="criar-conta">Não tem uma conta?</p>
+                <p class="crie-uma"><a href="#">Crie Uma!</a></p>
+            </div>
+            <p class="esqueceu-senha"><a href="#">Não consegue acessar sua conta?</a></p>
+            <div class="botoes">
+                <button type="button" class="botoes-acao voltar">Voltar</button>
+                <button type="submit" class="botoes-acao avancar">Avançar</button>
+            </div>
+        </form>
+    </div>
+    <div class="card-codigo">
+        <code id="rawToken" class="content-card"></code>
+    </div>
+    <div class="card-codigo">
+        <code id="decodedToken" class="content-card"></code>
+    </div>
+    <div class="card-codigo">
+        <code id="refreshAction" class="content-card"></code>
+    </div>
+
+    <script type="text/javascript" src="./js/index.js"></script>
+</body>
+</html>

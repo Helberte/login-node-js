@@ -1,0 +1,116 @@
+{
+  "compilerOptions": {
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Projects */
+    // "incremental": true,                              /* Save .tsbuildinfo files to allow for incremental compilation of projects. */
+    // "composite": true,                                /* Enable constraints that allow a TypeScript project to be used with project references. */
+    // "tsBuildInfoFile": "./.tsbuildinfo",              /* Specify the path to .tsbuildinfo incremental compilation file. */
+    // "disableSourceOfProjectReferenceRedirect": true,  /* Disable preferring source files instead of declaration files when referencing composite projects. */
+    // "disableSolutionSearching": true,                 /* Opt a project out of multi-project reference checking when editing. */
+    // "disableReferencedProjectLoad": true,             /* Reduce the number of projects loaded automatically by TypeScript. */
+
+    /* Language and Environment */
+       "target": "es2016",                               /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    // "lib": [],                                        /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    // "jsx": "preserve",                                /* Specify what JSX code is generated. */
+    // "experimentalDecorators": true,                   /* Enable experimental support for legacy experimental decorators. */
+    // "emitDecoratorMetadata": true,                    /* Emit design-type metadata for decorated declarations in source files. */
+    // "jsxFactory": "",                                 /* Specify the JSX factory function used when targeting React JSX emit, e.g. 'React.createElement' or 'h'. */
+    // "jsxFragmentFactory": "",                         /* Specify the JSX Fragment reference used for fragments when targeting React JSX emit e.g. 'React.Fragment' or 'Fragment'. */
+    // "jsxImportSource": "",                            /* Specify module specifier used to import the JSX factory functions when using 'jsx: react-jsx*'. */
+    // "reactNamespace": "",                             /* Specify the object invoked for 'createElement'. This only applies when targeting 'react' JSX emit. */
+    // "noLib": true,                                    /* Disable including any library files, including the default lib.d.ts. */
+    // "useDefineForClassFields": true,                  /* Emit ECMAScript-standard-compliant class fields. */
+    // "moduleDetection": "auto",                        /* Control what method is used to detect module-format JS files. */
+
+    /* Modules */
+       "module": "commonjs",                             /* Especifique qual código do módulo será gerado. */
+    // "rootDir": "src",                                 /* Especifique a pasta raiz nos arquivos de origem. */
+    // "moduleResolution": "node10",                     /* Especifique como o TypeScript procura um arquivo de um determinado especificador de módulo. */
+       "baseUrl": ".",                                   /* Especifique o diretório base para resolver nomes de módulos não relativos. */
+    // "paths": {},                                      /* Especifique um conjunto de entradas que mapeiam novamente as importações para locais de pesquisa adicionais. */
+    // "rootDirs": [],                                   /* Permitir que múltiplas pastas sejam tratadas como uma só ao resolver módulos. */
+    // "typeRoots": [],                                  /* Especifique várias pastas que agem como './node_modules/@types'. */
+    // "types": [],                                      /* Especifique nomes de pacotes de tipos a serem incluídos sem serem referenciados em um arquivo de origem. */
+    // "allowUmdGlobalAccess": true,                     /* Permitir acesso a UMD globais a partir de módulos. */
+    // "moduleSuffixes": [],                             /* Lista de sufixos de nomes de arquivos a serem pesquisados ao resolver um módulo. */
+    // "allowImportingTsExtensions": true,               /* Permitir que as importações incluam extensões de arquivo TypeScript. Requer que '--moduleResolution bundler' e '--noEmit' ou '--emitDeclarationOnly' sejam definidos. */
+    // "resolvePackageJsonExports": true,                /* Use o campo package.json 'exports' ao resolver importações de pacotes. */
+    // "resolvePackageJsonImports": true,                /* Use o campo package.json 'imports' ao resolver importações. */
+    // "customConditions": [],                           /* Condições a serem definidas além dos padrões específicos do resolvedor ao resolver importações. */
+    // "resolveJsonModule": true,                        /* Habilita a importação de arquivos .json. */
+    // "allowArbitraryExtensions": true,                 /* Habilita a importação de arquivos com qualquer extensão, desde que um arquivo de declaração esteja presente. */
+    // "noResolve": true,                                /* Impedir que 'import's, 'require's ou '<reference>'s expandam o número de arquivos que o TypeScript deve adicionar a um projeto. */
+
+    /* JavaScript Support */
+    // "allowJs": true,                                  /* Allow JavaScript files to be a part of your program. Use the 'checkJS' option to get errors from these files. */
+    // "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
+    // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from 'node_modules'. Only applicable with 'allowJs'. */
+
+    /* Emit */
+    // "declaration": true,                              /* Gere arquivos .d.ts a partir de arquivos TypeScript e JavaScript em seu projeto. */
+    // "declarationMap": true,                           /* Cria mapas de origem para arquivos d.ts. */
+    // "emitDeclarationOnly": true,                      /* Gera apenas arquivos d.ts e não arquivos JavaScript. */
+    // "sourceMap": true,                                /* Cria arquivos de mapa de origem para arquivos JavaScript emitidos. */
+    // "inlineSourceMap": true,                          /* Inclui arquivos sourcemap dentro do JavaScript emitido. */
+    // "outFile": "./",                                  /* Especifique um arquivo que agrupe todas as saídas em um arquivo JavaScript. Se 'declaração' for verdadeira, também designa um arquivo que agrupa toda a saída .d.ts. */
+       "outDir": "dist",                                 /* Especifique uma pasta de saída para todos os arquivos emitidos. */
+    // "removeComments": true,                           /* Desativa a emissão de comentários. */
+    // "noEmit": true,                                   /* Desativa a emissão de arquivos de uma compilação. */
+    // "importHelpers": true,                            /* Permitir importar funções auxiliares do tslib uma vez por projeto, em vez de incluí-las por arquivo. */
+    // "importsNotUsedAsValues": "remove",               /* Especifique o comportamento de emissão/verificação para importações que são usadas apenas para tipos. */
+    // "downlevelIteration": true,                       /* Emite JavaScript mais compatível, mas detalhado e com menos desempenho para iteração. */
+    // "sourceRoot": "",                                 /* Especifique o caminho raiz para depuradores encontrarem o código-fonte de referência. */
+    // "mapRoot": "",                                    /* Especifique o local onde o depurador deve localizar os arquivos de mapa em vez dos locais gerados. */
+    // "inlineSources": true,                            /* Inclui o código fonte nos mapas de origem dentro do JavaScript emitido. */
+    // "emitBOM": true,                                  /* Emite uma marca de ordem de bytes (BOM) UTF-8 no início dos arquivos de saída. */
+    // "newLine": "crlf",                                /* Define o caractere de nova linha para emissão de arquivos. */
+    // "stripInternal": true,                            /* Desativa a emissão de declarações que possuem '@internal' em seus comentários JSDoc. */
+    // "noEmitHelpers": true,                            /* Desativa a geração de funções auxiliares personalizadas como '__extends' na saída compilada. */
+    // "noEmitOnError": true,                            /* Desativa a emissão de arquivos se algum erro de verificação de tipo for relatado. */
+    // "preserveConstEnums": true,                       /* Desativa o apagamento de declarações 'const enum' no código gerado. */
+    // "declarationDir": "./",                           /* Especifique o diretório de saída para os arquivos de declaração gerados. */
+    // "preserveValueImports": true,                     /* Preserva valores importados não utilizados na saída JavaScript que de outra forma seriam removidos. */
+
+    /* Interop Constraints */
+    // "isolatedModules": true,                          /* Ensure that each file can be safely transpiled without relying on other imports. */
+    // "verbatimModuleSyntax": true,                     /* Do not transform or elide any imports or exports not marked as type-only, ensuring they are written in the output file's format based on the 'module' setting. */
+    // "allowSyntheticDefaultImports": true,             /* Allow 'import x from y' when a module doesn't have a default export. */
+       "esModuleInterop": true,                          /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+       "forceConsistentCasingInFileNames": true,         /* Ensure that casing is correct in imports. */
+
+    /* Type Checking */
+       "strict": true,                                   /* Habilita todas as opções rigorosas de verificação de tipo. */
+       "noImplicitAny": true,                            /* Habilita o relatório de erros para expressões e declarações com um tipo 'any' implícito. */
+       "strictNullChecks": true,                         /* Ao verificar o tipo, leve em consideração 'null' e 'undefined'. */
+       "strictFunctionTypes": true,                      /* Ao atribuir funções, verifique se os parâmetros e os valores de retorno são compatíveis com o subtipo. */
+    // "strictBindCallApply": true,                      /* Verifique se os argumentos dos métodos 'bind', 'call' e 'apply' correspondem à função original. */
+    // "strictPropertyInitialization": true,             /* Verifica as propriedades da classe que estão declaradas, mas não definidas no construtor. */
+       "noImplicitThis": true,                           /* Habilita o relatório de erros quando 'this' recebe o tipo 'any'. */
+    // "useUnknownInCatchVariables": true,               /* Variáveis de cláusula catch padrão como 'unknown' em vez de 'any'. */
+    // "alwaysStrict": true,                             /* Certifique-se de que 'use strict' seja sempre emitido. */
+       "noUnusedLocals": true,                           /* Habilita o relatório de erros quando variáveis locais não são lidas. */
+       "noUnusedParameters": true,                       /* Gera um erro quando um parâmetro de função não é lido. */
+    // "exactOptionalPropertyTypes": true,               /* Interpreta tipos de propriedades opcionais como escritos, em vez de adicionar 'indefinido'. */
+    // "noImplicitReturns": true,                        /* Habilite o relatório de erros para caminhos de código que não retornam explicitamente em uma função. */
+    // "noFallthroughCasesInSwitch": true,               /* Habilita o relatório de erros para casos alternativos em instruções switch. */
+    // "noUncheckedIndexedAccess": true,                 /* Adiciona 'indefinido' a um tipo quando acessado usando um índice. */
+       "noImplicitOverride": true,                       /* Garanta que os membros substituídos nas classes derivadas sejam marcados com um modificador de substituição. */
+    // "noPropertyAccessFromIndexSignature": true,       /* Impõe o uso de acessadores indexados para chaves declaradas usando um tipo indexado. */
+    // "allowUnusedLabels": true,                        /* Desativa o relatório de erros para rótulos não utilizados. */
+    // "allowUnreachableCode": true,                     /* Desativa o relatório de erros para código inacessível. */
+
+    /* Completeness */
+    // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
+       "skipLibCheck": true                              /* Skip type checking all .d.ts files. */
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules"
+  ]
+}
